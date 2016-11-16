@@ -2,20 +2,32 @@
 	width: 1200px;
 	height: 1500px;
 	margin:0 auto;
-	background: #ced8d8; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(top,#ced8d8 , #fff 50%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, #ced8d8 , #fff 50%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, #ced8d8 , #fff 50%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(top, #ced8d8 , #fff 50%); /* Standard syntax */
-}
-body{
-	
+	background: #ced8d8; 
+    background: -webkit-linear-gradient(top,#ced8d8 , #fff 50%); 
+    background: -o-linear-gradient(top, #ced8d8 , #fff 50%); 
+    background: -moz-linear-gradient(top, #ced8d8 , #fff 50%); 
+    background: linear-gradient(top, #ced8d8 , #fff 50%); 
 }
 #log{
+	background-color: #fff;
 	float: right;
 	width: 156px;
-	border: 1px solid #000;
+	height: 24px;
+	border: 1px solid #fff;
 	border-top: none;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;	
+	text-align: center;
+	margin:-12px 212px 0 0;
+	color: #959595;
+	padding-top: 10px;
+
+}
+#log a{
+	padding:0 4px 0 8px;
+	font: 400 11px/24px Arial;
+	color: #747474;
+}
+#log .enter{
+	color: #02a4fa;
 }
