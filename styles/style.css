@@ -1,13 +1,21 @@
 #conteiner{
 	width: 1200px;
-	background: #ced8d8;
-    background: -moz-linear-gradient(top, #ced8d9 0%, #fff 33%);
-    background: -webkit-linear-gradient(top, #ced8d9 0%,#fff 33%);
-    background: -o-linear-gradient(top, #ced8d9 0%,#fff 33%);
-    background: -ms-linear-gradient(top, #ced8d9 0%,#fff 33%);
-    background: linear-gradient(top, #ced8d9 0%,#fff 33%);
-    padding: 10px;
+	height: 1500px;
+	margin:0 auto;
+	background: #ced8d8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top,#ced8d8 , #fff 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #ced8d8 , #fff 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #ced8d8 , #fff 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, #ced8d8 , #fff 50%); /* Standard syntax */
 }
-#reg{
-
+body{
+	
+}
+#log{
+	float: right;
+	width: 156px;
+	border: 1px solid #000;
+	border-top: none;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
 }
