@@ -1,11 +1,11 @@
 #conteiner{
 	width: 1200px;
-	background: ##d2d9db;
-    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
-    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
-    background: -o-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
-    background: -ms-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
-    background: linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+	background: #ced8d8;
+    background: -moz-linear-gradient(top, #ced8d9 0%, #fff 33%);
+    background: -webkit-linear-gradient(top, #ced8d9 0%,#fff 33%);
+    background: -o-linear-gradient(top, #ced8d9 0%,#fff 33%);
+    background: -ms-linear-gradient(top, #ced8d9 0%,#fff 33%);
+    background: linear-gradient(top, #ced8d9 0%,#fff 33%);
     padding: 10px;
 }
 #reg{
