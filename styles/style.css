@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'AFKlampenborg';
+  src: url('../fonts/AFKlampenborg/AFKlampenborg.eot?#iefix') format('embedded-opentype'),  url('../fonts/AFKlampenborg/AFKlampenborg.otf')  format('opentype'),
+  url('../fonts/AFKlampenborg/AFKlampenborg.woff') format('woff'), url('../fonts/AFKlampenborg/AFKlampenborg.ttf')  format('truetype'), url('../fonts/AFKlampenborg/AFKlampenborg.svg#AFKlampenborg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 #conteiner{
 	width: 1200px;
 	height: 1500px;
