@@ -224,5 +224,11 @@ body{
 .table-comp td{
 	font: 400 12px/24px "Arial";
 	padding: 1px 0 0px 10px;
-
+}
+.light{
+	background-color: #eceff0;
+	
+}
+.dark{
+	background-color: #dfe5e6;
 }
