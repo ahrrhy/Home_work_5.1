@@ -93,6 +93,11 @@ body{
 	border: 1px solid #939598;
 	margin-left: -1px;
 	float: left;
+	background: #e5eaeb;
+	background: -webkit-linear-gradient(top,#e5eaeb , #d9d7d5 100%); 
+    background: -o-linear-gradient(top, #e5eaeb , #d9d7d5 100%); 
+    background: -moz-linear-gradient(top, #e5eaeb , #d9d7d5 100%); 
+    background: linear-gradient(top, #e5eaeb , #d9d7d5 100%);
 }
 #main-nav li:first-child{	
 	background: #fff; 
