@@ -11,6 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body{
 	background: #ced8d8; 
     background: -webkit-linear-gradient(top,#ced8d8 , #fff 50%); 
@@ -159,4 +160,28 @@ body{
 	border: 3px solid #ff9600;
 	border-radius: 30px;
 	padding-left: 30px; 
+}
+#icons{
+	margin: 29px;
+	float: right;
+}
+#master-of{
+	display: block;
+	margin-right:25px;
+}
+#forma{
+	display: block;
+	margin: 16px 0 0 6px;
+}
+#interlink{
+	display: block;
+	margin: 26px 0 0 -7px;
+}
+#web{
+	display: block;
+	margin: 11px 0 0 -11px;
+}
+#artsoft{
+	display: block;
+	margin: 5px 0 0 8px;
 }
