@@ -93,7 +93,7 @@ body{
 .main-ul li{
 	font: 400 15px/43px "Arial";
 	text-align: center;
-	width: 132px;
+	width: 130px;
 	height: 43px;
 	display: inline-block;
 	border: 1px solid #939598;
@@ -125,10 +125,12 @@ body{
 #big-one{
 	width: 777px;
 	margin: 26.5px 0 0 208px;
-	border-bottom:1px solid #939598;
+	/*border-bottom:1px solid #939598;*/
+
 }
 #categories{
 	width: 230px;
+	float: left;
 }
 #categories-header{
 	font: 400 21px/24px "Arial";
@@ -184,4 +186,13 @@ body{
 #artsoft{
 	display: block;
 	margin: 5px 0 0 8px;
+}
+#main{
+	float: left;
+	width: 528px;
+}
+#main h1{
+	font: 400 26px/33px "Arial";
+	margin: 30px 0 0 21px;
+	letter-spacing: 0.1px;
 }
