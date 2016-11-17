@@ -122,8 +122,6 @@ body{
 #big-one{
 	width: 777px;
 	margin: 26.5px 0 0 208px;
-	/*border-bottom:1px solid #939598;*/
-
 }
 #categories{
 	width: 230px;
@@ -196,7 +194,7 @@ body{
 .for-table{
 	border-top: 1px solid #00a7fb;
 	width: 528px;
-	height: 290px;
+	height: 272px;
 	margin: 0 0 0 20px;
 	padding: 9px 0 7px 133px;
 	background: url("../images/icon-table.png") 2% 10%/ 102px 115px no-repeat;
@@ -228,27 +226,27 @@ body{
 .dark{
 	background-color: #dfe5e6;
 }
-#phone{
+.phone{
 	background: #eceff0 url("../images/phone-ico.png") 0% 0%/16px 16px no-repeat;
 	border:none;
 	padding-left: 20px;
 }
-#skype{
+.skype{
 	background: #dfe5e6 url("../images/skype.png") 0% 0%/16px 16px no-repeat;
 	border:none;
 	padding-left: 20px;
 }
-#email{
+.email{
 	background: #eceff0 url("../images/email.png") 0% 0%/16px 16px no-repeat;
 	border:none;
 	padding-left: 20px;
 }
-#twiter{
+.twiter{
 	background: #dfe5e6 url("../images/twiter.png") 0% 0%/10px 13px no-repeat;
 	border:none;
 	padding-left: 20px;
 }
-#site{
+.site{
 	color: #03a7fe;
 }
 .table-comp td:last-child{
