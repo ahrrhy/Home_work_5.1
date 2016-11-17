@@ -77,3 +77,18 @@ body{
 	text-align: right;
 	padding: 50px 30px 0 0;
 }
+#main-nav{
+	width: 400px;
+	float:right;
+	padding: 
+}
+.main-ul li{
+	text-align: center;
+	width: 132px;
+	display: inline-block;
+	border: 1px solid #939598;
+	border-collapse: collapse;
+}
+.main-ul:nth-child(1){
+	margin:0;
+}
