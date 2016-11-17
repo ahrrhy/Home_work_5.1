@@ -114,12 +114,12 @@ body{
     background: -moz-linear-gradient(top, #fff , #e8eced 100%); 
     background: linear-gradient(top, #fff , #e8eced 100%); 
 	color: #45b8fb;
-	border-top-left-radius: 28px;
+	border-top-left-radius: 25px;
 	border-bottom: #e8eced;
 
 }
 #main-nav li:last-child{
-	border-top-right-radius: 28px;
+	border-top-right-radius: 25px;
 }
 #big-one{
 	width: 777px;
@@ -135,16 +135,28 @@ body{
 	background: url("../images/arrow-down.png") 49% 56%/12px 10px no-repeat;
 	margin: -5px 0 22px;
 }
-.categories{
-
-}
 .categories li{
 	padding: 0 0 0 2px;
 	width: 230px;
 	border-bottom: 1px solid #c4c4c4;
 	list-style-image: url("../images/arrow-aside.png");
 	list-style-position: inside;
-	font: 400 14px/32px "Arial";
+	font: 600 14px/32px "Arial";
 	color: #6a6a6a;
-
+}
+#rss{
+	margin-top: 43px;
+	padding: 15px 63px 16px 63px;
+	border-top:1px solid #cbcac9;
+	border-bottom: 1px solid #cbcac9;
+}
+#rss-but{
+	width: 102px;
+	height: 33px;
+	color: #939598;
+	font: 500 21px/19px 'AFKlampenborg';
+	background: #fff url("../images/rss.png") 30% 45%/18px 18px no-repeat;
+	border: 3px solid #ff9600;
+	border-radius: 30px;
+	padding-left: 30px; 
 }
