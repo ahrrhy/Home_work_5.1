@@ -219,7 +219,7 @@ body{
 	text-align: left;
 }
 .table-comp td{
-	font: 400 12px/24px "Arial";
+	font: 400 12px/23px "Arial";
 	padding: 1px 0 0px 10px;
 }
 .light{
@@ -250,4 +250,7 @@ body{
 }
 #site{
 	color: #03a7fe;
+}
+.table-comp td:last-child{
+	padding-left: 70px;
 }
