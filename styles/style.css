@@ -105,9 +105,6 @@ body{
     background: -moz-linear-gradient(top, #e5eaeb , #d9d7d5 100%); 
     background: linear-gradient(top, #e5eaeb , #d9d7d5 100%);
 }
-#big-one #main-nav li:first-child{
-	border: hidden;
-}
 #main-nav li:first-child{	
 	background: #fff; 
     background: -webkit-linear-gradient(top,#fff , #e8eced 100%); 
@@ -227,8 +224,30 @@ body{
 }
 .light{
 	background-color: #eceff0;
-	
 }
 .dark{
 	background-color: #dfe5e6;
+}
+#phone{
+	background: #eceff0 url("../images/phone-ico.png") 0% 0%/16px 16px no-repeat;
+	border:none;
+	padding-left: 20px;
+}
+#skype{
+	background: #dfe5e6 url("../images/skype.png") 0% 0%/16px 16px no-repeat;
+	border:none;
+	padding-left: 20px;
+}
+#email{
+	background: #eceff0 url("../images/email.png") 0% 0%/16px 16px no-repeat;
+	border:none;
+	padding-left: 20px;
+}
+#twiter{
+	background: #dfe5e6 url("../images/twiter.png") 0% 0%/10px 13px no-repeat;
+	border:none;
+	padding-left: 20px;
+}
+#site{
+	color: #03a7fe;
 }
