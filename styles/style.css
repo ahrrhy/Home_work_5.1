@@ -192,7 +192,37 @@ body{
 	width: 528px;
 }
 #main h1{
-	font: 400 26px/33px "Arial";
-	margin: 30px 0 0 21px;
+	font: 400 26px/36px "Arial";
+	margin: 30px 0 9px 21px;
 	letter-spacing: 0.1px;
+}
+.for-table{
+	border-top: 1px solid #00a7fb;
+	width: 528px;
+	height: 290px;
+	margin: 0 0 0 20px;
+	padding: 9px 0 7px 133px;
+	background: url("../images/icon-table.png") 2% 10%/ 102px 115px no-repeat;
+}
+.table-comp{
+	width: 393px;
+	font: 400 12px/24px "Arial";
+	background-color: #dfe5e6;
+}
+.border td{
+	border-top: 3px solid #fff;
+}
+.table-comp caption{
+	text-align: left;
+	color: #03a7fe;
+	font: 400 22px/33px "Arial";
+}
+.left{
+	color:#505050;
+	text-align: left;
+}
+.table-comp td{
+	font: 400 12px/24px "Arial";
+	padding: 1px 0 0px 10px;
+
 }
