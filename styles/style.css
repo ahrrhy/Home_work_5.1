@@ -207,7 +207,7 @@ body{
 	background-color: #dfe5e6;
 }
 .dl-comp-dt{
-	font: 400 12px/27px "Arial";
+	font: 400 12px/26px "Arial";
 	margin: 0;
 	padding: 0;
 	float: left;
@@ -216,7 +216,7 @@ body{
 	border-top: 1px solid #fff;
 }
 .dl-comp-dd{
-	font: 400 12px/27px "Arial";
+	font: 400 12px/25px "Arial";
 	width: 172px;
 	float: left;
 	background-color: #dfe5e6;
@@ -224,7 +224,7 @@ body{
 }
 
 .header-dt{
-	font: 400 22px/33px "Arial";
+	font: 400 22px/30px "Arial";
 	color: #03a7fe;
 	width: 393px;
 	background-color: #fff;
@@ -254,24 +254,24 @@ body{
 	background-color: #ecf0f1;
 	text-align: center;
 	text-indent: 180px;
-	border-top: 1px solid #fff;
+	font: 400 12px/27px "Arial";
 }
 .skype{
 	width: 393px;
 	background-color: #dfe5e6;
 	text-align: center;
 	text-indent: 110px;
-	border-top: 1px solid #fff;
+	font: 400 12px/25px "Arial";
 }
 .email{
 	width: 393px;
 	background-color: #ecf0f1;
 	text-align: center;
 	text-indent: 200px;
-	border-top: 1px solid #fff;
+	font: 400 12px/25px "Arial";
 }
 .twiter{
-	border-top: 1px solid #fff;
+	font: 400 12px/25px "Arial";
 	width: 393px;
 	background-color: #dfe5e6;
 	text-align: center;
