@@ -267,3 +267,9 @@ body{
 	font: 400 10px/25px "Arial";
 	background: #d9dada url("../images/master-min.png") 465px 50%/ 26px 14px no-repeat;
 }
+#icons img{
+	opacity: 0.5;
+}
+#icons img:hover{
+	opacity: 1;
+}
