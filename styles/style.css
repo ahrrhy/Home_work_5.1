@@ -190,65 +190,92 @@ body{
 }
 #main h1{
 	font: 400 26px/36px "Arial";
-	margin: 30px 0 9px 21px;
+	margin: 30px 0 7px 21px;
 	letter-spacing: 0.1px;
 }
-.for-table{
+.for-dl{
 	border-top: 1px solid #00a7fb;
 	width: 528px;
 	height: 272px;
 	margin: 0 0 0 20px;
-	padding: 9px 0 7px 133px;
+	padding: 7px 0 7px 133px;
 	background: url("../images/icon-table.png") 2% 10%/ 102px 115px no-repeat;
 }
-.table-comp{
+.dl-comp{
 	width: 393px;
 	font: 400 12px/24px "Arial";
 	background-color: #dfe5e6;
 }
-.border td{
-	border-top: 3px solid #fff;
-}
-.table-comp caption{
-	text-align: left;
-	color: #03a7fe;
-	font: 400 22px/33px "Arial";
-}
-.left{
-	color:#505050;
-	text-align: left;
-}
-.table-comp td{
-	font: 400 12px/23px "Arial";
-	padding: 1px 0 0px 10px;
-}
-.light{
-	background-color: #eceff0;
-}
-.dark{
+.dl-comp-dt{
+	font: 400 12px/27px "Arial";
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 220px;
 	background-color: #dfe5e6;
+	border-top: 1px solid #fff;
 }
-.phone{
+.dl-comp-dd{
+	font: 400 12px/27px "Arial";
+	width: 172px;
+	float: left;
+	background-color: #dfe5e6;
+	border-top: 1px solid #fff;
+}
+
+.header-dt{
+	font: 400 22px/33px "Arial";
+	color: #03a7fe;
+	width: 393px;
+	background-color: #fff;
+	border-bottom:  1px solid #fff;
+}
+.phone a{
 	background: #eceff0 url("../images/phone-ico.png") 0% 0%/16px 16px no-repeat;
 	padding-left: 20px;
 }
-.skype{
+.skype a{
 	background: #dfe5e6 url("../images/skype.png") 0% 0%/16px 16px no-repeat;
 	padding-left: 20px;
 }
-.email{
+.email a{
 	background: #eceff0 url("../images/email.png") 0% 0%/16px 16px no-repeat;
 	padding-left: 20px;
 }
-.twiter{
+.twiter a{
 	background: #dfe5e6 url("../images/twiter.png") 0% 0%/10px 13px no-repeat;
 	padding-left: 20px;
 }
 .site a{
 	color: #03a7fe;
 }
-.table-comp td:last-child{
-	padding-left: 70px;
+.phone{
+	width: 393px;
+	background-color: #ecf0f1;
+	text-align: center;
+	text-indent: 180px;
+	border-top: 1px solid #fff;
+}
+.skype{
+	width: 393px;
+	background-color: #dfe5e6;
+	text-align: center;
+	text-indent: 110px;
+	border-top: 1px solid #fff;
+}
+.email{
+	width: 393px;
+	background-color: #ecf0f1;
+	text-align: center;
+	text-indent: 200px;
+	border-top: 1px solid #fff;
+}
+.twiter{
+	border-top: 1px solid #fff;
+	width: 393px;
+	background-color: #dfe5e6;
+	text-align: center;
+	text-indent: 130px;
 }
 #footer{
 	margin: 73px 0 0 212px;
