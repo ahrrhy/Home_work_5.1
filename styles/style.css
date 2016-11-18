@@ -17,10 +17,10 @@
 
 body{
 	background: #ced8d8; 
-    background: -webkit-linear-gradient(top,#ced8d8 , #fff 50%); 
-    background: -o-linear-gradient(top, #ced8d8 , #fff 50%); 
-    background: -moz-linear-gradient(top, #ced8d8 , #fff 50%); 
-    background: linear-gradient(top, #ced8d8 , #fff 50%); 
+    background: -webkit-linear-gradient(#ced8d8 , #fff 50%); 
+    background: -o-linear-gradient( #ced8d8 , #fff 50%); 
+    background: -moz-linear-gradient( #ced8d8 , #fff 50%); 
+    background: linear-gradient(, #ced8d8 , #fff 50%); 
     background-repeat: no-repeat;
 
 }
@@ -103,17 +103,17 @@ body{
 	margin-left: -1px;
 	float: left;
 	background: #e5eaeb;
-	background: -webkit-linear-gradient(top,#e5eaeb , #d9d7d5 100%); 
-    background: -o-linear-gradient(top, #e5eaeb , #d9d7d5 100%); 
-    background: -moz-linear-gradient(top, #e5eaeb , #d9d7d5 100%); 
-    background: linear-gradient(top, #e5eaeb , #d9d7d5 100%);
+	background: -webkit-linear-gradient(#e5eaeb , #d9d7d5 100%); 
+    background: -o-linear-gradient( #e5eaeb , #d9d7d5 100%); 
+    background: -moz-linear-gradient( #e5eaeb , #d9d7d5 100%); 
+    background: linear-gradient( #e5eaeb , #d9d7d5 100%);
 }
 #main-nav li:first-child{	
 	background: #fff; 
-    background: -webkit-linear-gradient(top,#fff , #e8eced 100%); 
-    background: -o-linear-gradient(top, #fff , #e8eced 100%); 
-    background: -moz-linear-gradient(top, #fff , #e8eced 100%); 
-    background: linear-gradient(top, #fff , #e8eced 100%); 
+    background: -webkit-linear-gradient(#fff , #e8eced 100%); 
+    background: -o-linear-gradient( #fff , #e8eced 100%); 
+    background: -moz-linear-gradient( #fff , #e8eced 100%); 
+    background: linear-gradient( #fff , #e8eced 100%); 
 	color: #45b8fb;
 	border-top-left-radius: 25px;
 	border-bottom: #e8eced;
@@ -194,14 +194,16 @@ body{
 	letter-spacing: 0.1px;
 }
 .for-dl{
+	
 	border-top: 1px solid #00a7fb;
 	width: 528px;
 	height: 272px;
 	margin: 0 0 0 20px;
-	padding: 7px 0 7px 133px;
+	padding: 7px 0 7px 0;
 	background: url("../images/icon-table.png") 2% 10%/ 102px 115px no-repeat;
 }
 .dl-comp{
+	float: right;
 	width: 393px;
 	font: 400 12px/24px "Arial";
 	background-color: #dfe5e6;
@@ -299,4 +301,7 @@ body{
 }
 #icons img:hover{
 	opacity: 1;
+}
+.bot-bor{
+	border-bottom: 1px solid #00a7fb;
 }
