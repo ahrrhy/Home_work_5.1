@@ -12,7 +12,7 @@
   font-style: normal;
 }
 .fa{
-	color: #03a7fe;
+	color: #03a7fe; /*Не надо всем иконкам делать одинаковый цвет*/
 }
 
 body{
@@ -20,13 +20,13 @@ body{
     background: -webkit-linear-gradient(#ced8d8 , #fff 50%); 
     background: -o-linear-gradient( #ced8d8 , #fff 50%); 
     background: -moz-linear-gradient( #ced8d8 , #fff 50%); 
-    background: linear-gradient(, #ced8d8 , #fff 50%); 
+    background: linear-gradient(, #ced8d8 , #fff 50%); /*А на валидаторе Пушкин будет проверять???*/
     background-repeat: no-repeat;
 
 }
 #conteiner{
-	width: 1200px;
-	height: 1500px;
+	width: 1200px;/*и зачем это?*/
+	height: 1500px; /*Сколько мне еще говорить про то, что высоту мы не ставим???*/
 	margin:0 auto;
 }
 #log{
@@ -39,9 +39,9 @@ body{
 	border-bottom-left-radius: 18px;
 	border-bottom-right-radius: 18px;	
 	text-align: center;
-	margin:-12px 0 0 10px;
+	margin:-12px 0 0 10px; /*а без отрицательных маржинов никак???*/
 	color: #959595;
-	padding-top: 10px;
+	padding-top: 10px;/*я ж просил группировать посмыслу стиля (отступы вместе, шрифты вместе и тд*/
 
 }
 #log a{
@@ -55,11 +55,11 @@ body{
 #head{
 	width: 776px;
 	height: 161px;
-	margin:0 212px 0 210px;	
+	margin:0 212px 0 210px;	/*емммм... */
 	border-bottom: 1px solid #939598;
 }
 #logo{
-	background: url("../images/logo.png") 0% 50%/176px 83px no-repeat;
+	background: url("../images/logo.png") 0% 50%/176px 83px no-repeat; /*Нуль - он и в Африке нуль. не надо ему единиц измерения ставить*/
 	width: 300px;
 	min-height: 83px;
 	text-align: right;
@@ -108,7 +108,7 @@ body{
     background: -moz-linear-gradient( #e5eaeb , #d9d7d5 100%); 
     background: linear-gradient( #e5eaeb , #d9d7d5 100%);
 }
-#main-nav li:first-child{	
+#main-nav li:first-child{	 /*лучше по классу обращаться, так как это сейчас данный таб активный, а через неделю будет уже не активным :)*/
 	background: #fff; 
     background: -webkit-linear-gradient(#fff , #e8eced 100%); 
     background: -o-linear-gradient( #fff , #e8eced 100%); 
@@ -253,9 +253,9 @@ body{
 }
 .phone{
 	width: 393px;
-	background-color: #ecf0f1;
+	background-color: #ecf0f1; /*Одинаковые стили лучше оъединять*/
 	text-align: center;
-	text-indent: 180px;
+	text-indent: 180px;/*не используем это свойство*/
 	font: 400 12px/27px "Arial";
 }
 .skype{

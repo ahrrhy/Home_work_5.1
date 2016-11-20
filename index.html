@@ -1,32 +1,37 @@
+<!--Мои замечания-->
+<!--https://nimbus.everhelper.me/client/notes/share/653572/kickn0mdgytptvg48kbz-->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="styles/reset.css" />
 	<link rel="stylesheet" type="text/css" href="styles/style.css" />
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css"> <!-- Лучше не использовать локальное хранение таких файлов. их стоит подключать с CDN -->
 	<title>M2M</title>
 </head>
 <body>
 	<div id="conteiner">
 		<header id="head">
 			<div id="log">
-				<a href="reg.html" title="registration">регистрация</a>  | <a class="enter" href="sign-in" title="sign-in">вход</a>
+				<a href="reg.html" title="registration">регистрация</a>  |<!-- палочка как элемент контента?????????--> <a class="enter" href="sign-in"<!-- Что это за ссылка такая??? --> title="sign-in">вход</a>
+				<!--Не делай ссылки на несуществующие страницы.-->
 			</div>
 			<div id="logo">
+				<!--Лого - это всегда картинка! Лого - это всегда ссылка на домашнюю страницу-->
 				<p>managers to <span class="man">manegers</span></p>
 			</div>
-			<p id="community">Сообщество ІТ-компаний города Черкассы</p>	
+			<p id="community">Сообщество ІТ-компаний города Черкассы</p> <!-- а почему именно айди? чем класс не угодил? -->
 			<menu id="main-nav">
 				<ul class="main-ul">
 					<li>главная</li>
+					<!--Это ссылки-->
 					<li>цель проекта</li>
 					<li>компании</li>
 				</ul>		
 			</menu>		
 		</header>
 		<section id="big-one">
-			<aside id="categories">
+			<aside id="categories"> <!-- Если есть сайдбар, то в отдельную секцию не стоит его выделять. Это лишняя вложеность -->
 				<h2 id="categories-header">Категории<i class="fa fa-caret-down" aria-hidden="true"></i></h2>
 				<ul class="categories">
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>CMS</li>
@@ -46,7 +51,7 @@
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>CMS</li>
 					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>Design Patterns</li>
 				</ul>
-				<section id="adv">
+				<section id="adv"> <!-- излишняя секция -->
 					<div id="rss">
 						<button id="rss-but" type="button">RSS</button>
 					</div>
@@ -55,7 +60,7 @@
 						<a href="#"><img id="forma" src="images/forma.png" alt="forma.png" /></a>
 						<a href="#"><img id="interlink" src="images/interlink.png" alt="interlink.png" /></a>
 						<a href="#"><img id="web" src="images/web.png" alt="web.png" /></a>
-						<a href="#"><img id="artsoft" src="images/artsoft.png" alt="artsoft.png" /></a>
+						<a href="#"><img id="artsoft" src="images/artsoft.png" alt="artsoft.png" /></a> <!-- от не поверю, что делал руками без помощи CMS -->
 					</div>
 				</section>
 			</aside>
@@ -65,7 +70,7 @@
 					<dl class="dl-comp">
 						<dt class="header-dt">
 							Kyosho Inc.
-						</dt>
+						</dt><!-- термин без дескрипшена не может быть. это явное не элемент списка -->
 
 						<dt class="dl-comp-dt">количество работников</dt>
 						<dd class="dl-comp-dd">50</dd>
@@ -83,6 +88,7 @@
 						<dd class="dl-comp-dd">Agent Anderson Smith</dd>
 				
 						<dd class="phone"><a class="phone" href="tel:+11858745254">+1 185 8745-254</a></dd>
+						<!-- Я ж говорил на занятии, что бы это делали font-awsome а не фоном, Это же список определений, где определение для данного термина? -->
 											
 						<dd class="skype"><a class="skype" href="callto:+11858745254">smithy</a></dd>
 											
@@ -150,7 +156,7 @@
 											
 						<dd class="email"><a class="email" href="mailto:smithy@sobakka.net">smithy@sobakka.net</a></dd>
 				
-						<dd class="twiter"><a class="twiter" href="#">smither</a></dd>
+						<dd class="twiter"><a class="twiter" href="#">smither</a></dd> <!-- twitter - как бы обидится -->
 		
 					</dl>
 				</div>
